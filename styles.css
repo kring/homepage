@@ -58,12 +58,17 @@ a:link, a:visited, a:hover, a:active
     color: #51484A;
 }
 
-.inlineImage
+.inlineImage, .inlineImageNoBorder
 {
+    text-decoration:none;
     clear:left;
     float:left;
     margin-right:15px;
     margin-bottom:15px;
+}
+
+.inlineImage
+{
     border:1px solid #061013;
 }
 
@@ -75,4 +80,12 @@ a:link, a:visited, a:hover, a:active
 li
 {
     list-style-position: inside;
+}
+
+.credits
+{
+    font-size:small;
+    clear:left;
+    text-align:center;
+    padding:15px;
 }
