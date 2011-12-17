@@ -1,0 +1,78 @@
+﻿body
+{
+    background-color: #939E78;
+    border-left: 20px solid #839074;
+    margin: 0px;
+    padding: 8px;
+}
+
+.portrait
+{
+    float:left;
+    margin:15px;
+    border:1px solid #061013;
+}
+
+.name
+{
+    font-family: 'Arimo', sans-serif;
+    font-size:x-large;
+    margin-top:15px;
+}
+
+.title
+{
+    font-family: 'Arimo', sans-serif;
+    font-size:large;
+}
+
+.sectionTitle
+{
+    font-family: 'Arimo', sans-serif;
+    font-size:x-large;
+    font-weight:700;
+    background-color: #CDCD76;
+    clear:left;
+    padding:5px;
+    border-radius:8px;
+    border:1px solid #061013;
+    box-shadow: 5px 5px 10px #061013;
+}
+
+.section
+{
+    margin:15px;
+}
+
+.sectionContent
+{
+    clear:left;
+    margin:15px;
+    font-family: 'Arimo', sans-serif;
+    font-weight:400;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+    text-decoration:none;
+    color: #51484A;
+}
+
+.inlineImage
+{
+    clear:left;
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+    border:1px solid #061013;
+}
+
+.itemDetails
+{
+    margin-top:1em;
+}
+
+li
+{
+    list-style-position: inside;
+}
